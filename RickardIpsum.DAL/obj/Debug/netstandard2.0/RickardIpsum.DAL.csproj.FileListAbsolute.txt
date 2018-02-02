@@ -1,8 +1,0 @@
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/bin/Debug/netstandard2.0/RickardIpsum.DAL.deps.json
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/bin/Debug/netstandard2.0/RickardIpsum.DAL.dll
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/bin/Debug/netstandard2.0/RickardIpsum.DAL.pdb
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/obj/Debug/netstandard2.0/RickardIpsum.DAL.csproj.CoreCompileInputs.cache
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/obj/Debug/netstandard2.0/RickardIpsum.DAL.AssemblyInfoInputs.cache
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/obj/Debug/netstandard2.0/RickardIpsum.DAL.AssemblyInfo.cs
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/obj/Debug/netstandard2.0/RickardIpsum.DAL.dll
-/home/justin/Websites/RickardIpsum/RickardIpsum.DAL/obj/Debug/netstandard2.0/RickardIpsum.DAL.pdb
