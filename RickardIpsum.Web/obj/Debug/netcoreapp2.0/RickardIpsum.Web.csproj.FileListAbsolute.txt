@@ -1,0 +1,10 @@
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/bin/Debug/netcoreapp2.0/RickardIpsum.Web.deps.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/bin/Debug/netcoreapp2.0/RickardIpsum.Web.runtimeconfig.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/bin/Debug/netcoreapp2.0/RickardIpsum.Web.runtimeconfig.dev.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/bin/Debug/netcoreapp2.0/RickardIpsum.Web.dll
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/bin/Debug/netcoreapp2.0/RickardIpsum.Web.pdb
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/obj/Debug/netcoreapp2.0/RickardIpsum.Web.csproj.CoreCompileInputs.cache
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/obj/Debug/netcoreapp2.0/RickardIpsum.Web.AssemblyInfoInputs.cache
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/obj/Debug/netcoreapp2.0/RickardIpsum.Web.AssemblyInfo.cs
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/obj/Debug/netcoreapp2.0/RickardIpsum.Web.dll
+/home/justin/Websites/RickardIpsum/RickardIpsum.Web/obj/Debug/netcoreapp2.0/RickardIpsum.Web.pdb

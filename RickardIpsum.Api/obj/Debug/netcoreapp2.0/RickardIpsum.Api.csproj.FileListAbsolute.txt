@@ -1,0 +1,10 @@
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/bin/Debug/netcoreapp2.0/RickardIpsum.Api.deps.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/bin/Debug/netcoreapp2.0/RickardIpsum.Api.runtimeconfig.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/bin/Debug/netcoreapp2.0/RickardIpsum.Api.runtimeconfig.dev.json
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/bin/Debug/netcoreapp2.0/RickardIpsum.Api.dll
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/bin/Debug/netcoreapp2.0/RickardIpsum.Api.pdb
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/obj/Debug/netcoreapp2.0/RickardIpsum.Api.csproj.CoreCompileInputs.cache
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/obj/Debug/netcoreapp2.0/RickardIpsum.Api.AssemblyInfoInputs.cache
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/obj/Debug/netcoreapp2.0/RickardIpsum.Api.AssemblyInfo.cs
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/obj/Debug/netcoreapp2.0/RickardIpsum.Api.dll
+/home/justin/Websites/RickardIpsum/RickardIpsum.Api/obj/Debug/netcoreapp2.0/RickardIpsum.Api.pdb
