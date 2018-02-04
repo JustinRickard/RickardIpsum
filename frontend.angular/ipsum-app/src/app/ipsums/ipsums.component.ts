@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Ipsum } from '../ipsum';
-import { Ipsums } from '../mock-ipsums';
+import { IpsumService } from '../ipsum.service';
 
 @Component({
   selector: 'app-ipsums',
@@ -10,15 +10,20 @@ import { Ipsums } from '../mock-ipsums';
 export class IpsumsComponent implements OnInit {
 
   selectedIpsum : Ipsum;
-  ipsums : Ipsum[] = Ipsums;
+  ipsums : Ipsum[];
 
-  constructor() { }
+  constructor(private ipsumService: IpsumService) { }
 
   ngOnInit() {
+    this.getIpsums();
   }
 
   onSelect(ipsum: Ipsum): void {
     this.selectedIpsum = ipsum;
+  }
+
+  getIpsums(): void {
+    this.ipsums = this.ipsumService.getIpsums();
   }
 
 }
