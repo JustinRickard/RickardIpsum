@@ -1,4 +1,9 @@
-<p>
-  {{ ipsum.id }} | {{ ipsum.name }}
-</p>
-<input type="text" [(ngModel)]="ipsum.name" />
+<h2>Ipsums</h2>
+<ul>
+  <li *ngFor="let ipsum of ipsums">
+    <p>
+      {{ ipsum.id }} : {{ ipsum.name }}
+    </p>
+  </li>
+</ul>
+<!-- <input type="text" [(ngModel)]="ipsum.name" /> -->

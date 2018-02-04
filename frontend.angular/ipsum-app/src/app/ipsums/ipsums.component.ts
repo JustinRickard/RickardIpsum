@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Ipsum } from '../ipsum';
+import { Ipsums } from '../mock-ipsums';
 
 @Component({
   selector: 'app-ipsums',
@@ -8,15 +9,11 @@ import { Ipsum } from '../ipsum';
 })
 export class IpsumsComponent implements OnInit {
 
-  ipsum : Ipsum = {
-    id: 1,
-    name: 'Ipsum One'
-  };
+  ipsums : Ipsum[] = Ipsums;
 
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }
