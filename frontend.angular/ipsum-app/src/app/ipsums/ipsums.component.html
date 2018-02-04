@@ -1,7 +1,4 @@
-<div *ngIf="selectedIpsum">
-  <h2>{{ selectedIpsum.name }} Details</h2>
-  <div><span>id: </span>{{selectedIpsum.id}}</div>
-</div>
+<app-ipsum-detail [ipsum]="selectedIpsum"></app-ipsum-detail>
 
 <h2>Ipsums</h2>
 <ul>
