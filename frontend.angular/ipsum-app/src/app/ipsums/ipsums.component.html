@@ -1,6 +1,9 @@
+<h2>{{ selectedIpsum.name }} Details</h2>
+<div><span>id: </span>{{selectedIpsum.id}}</div>
+
 <h2>Ipsums</h2>
 <ul>
-  <li *ngFor="let ipsum of ipsums">
+  <li *ngFor="let ipsum of ipsums" (click)="onSelect(ipsum)">
     <p>
       {{ ipsum.id }} : {{ ipsum.name }}
     </p>

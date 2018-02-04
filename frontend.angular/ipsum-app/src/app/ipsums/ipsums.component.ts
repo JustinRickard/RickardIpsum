@@ -9,11 +9,16 @@ import { Ipsums } from '../mock-ipsums';
 })
 export class IpsumsComponent implements OnInit {
 
+  selectedIpsum : Ipsum;
   ipsums : Ipsum[] = Ipsums;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSelect(ipsum: Ipsum): void {
+    this.selectedIpsum = ipsum;
   }
 
 }
