@@ -9,14 +9,12 @@ namespace RickardIpsum.DAL.Models
         [MaxLength(50)]
         public string DisplayName { get; set; }
         [MaxLength(50)]
-        public string AdminName { get; set; }
-        [MaxLength(256)]
         public string ThumbnailUrl { get; set; }
         [MaxLength(256)]
         public string BackgroundUrl { get; set; }
 
-        [ForeignKey("CreatedBy")]
-        public Guid CreatedBy { get; set; }
+        [ForeignKey("CreatedByUserId")]
+        public Guid CreatedByUserId { get; set; }
         public DbUser CreatedByUser { get; set; }
     }
 }

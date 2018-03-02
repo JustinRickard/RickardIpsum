@@ -63,7 +63,11 @@ namespace RickardIpsum.DAL
 
         // Generic DELETE
         public void Delete<TEntity>(TEntity record) where TEntity : DbModelBase {
-            var ipsum = GetById<DbIpsum>(record.Id);
+            Delete<TEntity>(record.Id);
+        }
+
+        public void Delete<TEntity>(Guid id) {
+            var ipsum = GetById<DbIpsum>(id);
             if (ipsum != null) {
                 ipsum.Deleted = true;
             }

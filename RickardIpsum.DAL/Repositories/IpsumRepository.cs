@@ -59,9 +59,15 @@ namespace RickardIpsum.DAL.Repositories
         public void DeleteIpsum(DbIpsum ipsum) {
             _ctx.Delete<DbIpsum>(ipsum);
         }
+        public void DeleteIpsum(Guid id) {
+            _ctx.Delete<DbIpsum>(id);
+        }
 
         public void DeletePhrase(DbIpsumPhrase phrase) {
             _ctx.Delete<DbIpsumPhrase>(phrase);
+        }
+        public void DeletePhrase(Guid id) {
+            _ctx.Delete<DbIpsumPhrase>(id);
         }
     }
 }
