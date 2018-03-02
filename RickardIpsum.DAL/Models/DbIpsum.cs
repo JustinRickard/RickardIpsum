@@ -6,7 +6,7 @@ namespace RickardIpsum.DAL.Models
 {
     public class DbIpsum : DbModelBase
     {
-        [MaxLength(100)]
+        [MaxLength(50)]
         public string DisplayName { get; set; }
         [MaxLength(50)]
         public string AdminName { get; set; }

@@ -12,11 +12,5 @@ namespace RickardIpsum.DAL.Models
 
         [MaxLength(50)]
         public string Phrase { get; set; }
-
-        public DateTimeOffset ApprovedTime { get; set; }
-
-        [ForeignKey("ApprovedByUserId")]
-        public Guid ApprovedByUserId { get; set; }
-        public DbUser ApprovedByUser { get; set; }
     }
 }
