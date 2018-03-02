@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using RickardIpsum.DAL;
+using Microsoft.EntityFrameworkCore;
+using RickardIpsum.DAL.Repositories;
 
 namespace RickardIpsum.Api
 {
@@ -25,6 +28,14 @@ namespace RickardIpsum.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper();
+            services
+                .AddDbContext<Context>(
+                    options => options.UseInMemoryDatabase("Temp")
+                );
+
+            services
+                .AddScoped<IpsumRepository, IpsumRepository>();
+
             services.AddMvc();            
         }
 
